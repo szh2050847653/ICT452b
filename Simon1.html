@@ -1,61 +1,222 @@
-<html lang="en"> 
- <head> 
- <meta charset="UTF-8"> 
- <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
- <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
- <title>Document</title> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+  background-color: rgb(58, 211, 216); /* same as #ffcc99 */
+}
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color:rgb(58, 211, 216); 
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #cc2525;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #dfe092;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>452 project</h1>
+  
+</div>
+ <div class="nav">
+        <a href="https://lukehujunjie.github.io/ITC452/452project self introduction.html">self introduction</a>
+        <a class="active" href="https://lukehujunjie.github.io/ITC452/452projict%20picture.html">picture gallery</a>
+        <a href="https://lukehujunjie.github.io/ITC452/flow%20chart%20logo.html">flow chart</a>
+    </div>
+    <div class="main">
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  </style>
+
+ <style> 
+ h1 {text-align: center;} 
+ img { 
+ display: block; 
+ margin-left: auto; 
+ margin-right: auto; 
+ } 
+ .nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+    }
+
+    .nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+    }
+    img {
+
+    
+
+}
+</style>
  </head> 
  <body> 
- <div class="header"> 
- <h1>self introduction 
- </h1> 
- </div> 
- <div style="text-align:center;"> 
-     < img border="0" src="(https://github.com/szh2050847653/ICT452b/assets/127078276/7ef425a7-cef1-4049-87ef-4f62ff8b57ea)" alt="Pulpit rock"text-align: center width="304" height="420" > 
-     <div class="column"> 
- <h2>hobby</h2> 
- <p class="es" style="centre">  My name is Su Zihao, you can also call me Simon. I am originally from Taizhou, Zhejiang, and I am currently studying at Ningbo City Vocational and Technical College.
- </div> 
- <div class="column"> 
- <h2>travel</h2> 
- <p class="es"> travel 
- I have a lot of hobbies, I like to listen to songs, and I listen to a lot of songs, but one of my favorite songs is R&B songs. I also like to play games and do some simple sports. 
- </div> 
-   <div class="column"> 
- <h2>learn</h2> 
- <p class="es"> 
- In this long life, I have learned a lot, such as writing, drums and photography. 
- Writing can calm my mood and calm it down.  
- Drum stands can vent my emotions when I'm upset, so photography doesn't have to say much. It's a hobby. 
- </div> 
- <table border="1"><!--This is table--> 
- <tr> 
- <td>hobby</td> 
- <td>Listen to the music</td> 
- <td>play basketball</td> 
- <td>take a picture</td> 
- </tr> 
- <tr> 
- <td>learn</td> 
- <td>write</td> 
- <td>drum kit</td> 
- <td>phootography</td> 
- </tr> 
- <tr> 
- <td>cities visited</td> 
- <td>Xiamen</td> 
- <td>Ningbo</td> 
- <td>Beijing</td> 
- </tr> 
- <tr> 
- <td>Educational experience</td> 
- <td>primary school</td> 
- <td>high school</td> 
- <td>university</td> 
- </tr> 
- </table> 
- </p > 
- <footer style=text-align:center>Page1</footer><!--This is footnote--> 
+ <!-- This is my Headline- --> 
+ <h1>Welcome to my websete this is my home page</h1> 
  
-  </body> 
+ 
+  
+ 
+  <!-- This is my Image and Logo- --> 
+ <h2>Profile Picture</h2> 
+<img src="">
+ 
+  <!-- This is my Self-Introduction- --> 
+ <h3>Introduction Myself</h3> 
+ <p>Hello! My name is Simon,my Chinese name is Su Zihao. I am a 20 year-old boy. I am studying in NBCC School with TAFE.I'm from Taizhou, Zhejiang.</p > 
+   <!-- This is my Numbered List- --> 
+ <h4>I hope I can do something in my study and life in school.</h4> 
+ <h5>I hope to learn something about the computer at TAFE, I hope that the professional knowledge I have learned will help me in my future work.
+    </h5> 
+ <style>
+    h4 {
+      text-align: center;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+    
+    h3 {
+      text-align: center;
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    h5 {
+      text-align: center;
+    }
+    
+table
+ 
+ { 
+  
+ margin-right: auto;
+  
+ margin-left: auto;
+  
+ }
+    </style>
+   
+ 
+
+            <h2>hobbies and interests</h2>
+	<ul2>
+	<table border="1">  
+	 <tr>
+          <td>hobbies and interests</td>
+          <td>listening some chinese tradition music in my free time</td>
+          <td>go for a travel</td>
+          <td>play online games</td>
+        </tr>
+        <tr>
+          <td>favorite sports</td>
+          <td>cycling</td>
+          <td>playing badminton</td>
+          <td>table tennis</td>
+        </tr>
+        <tr>
+            <td>study experience</td>
+            <td>primary school</td>
+            <td>middle school</td>
+            <td>university TAFE</td>
+          </tr>
+          <tr>
+            <td>favorite movie</td>
+            <td>Pirates of the Caribbean</td>
+            <td>Iron Man</td>
+            <td>Fast & Furious</td>
+          </tr>
+        </table>
+		
+        <h1>LOGO
+        </h1>
+        <center><img border="0" src="https://user-images.githubusercontent.com/127079053/228127635-c367798b-cb26-4b62-b766-313547547838.png" ></center>
+        
+		<footer style=text-align:center>Page self introduction 
+      </footer><!--This is footnote-->
+      <footer style=text-align:center>The Organizer, luke personl web</footer><!--This is footnote-->
+        <footer style=text-align:center>Copyright © 2022-2023 LShow.com All Rights Reserved</footer><!--This is footnote-->
+ </body> 
  </html> 
